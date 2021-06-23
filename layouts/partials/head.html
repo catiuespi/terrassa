@@ -6,7 +6,6 @@
 	<title>{{ $.Site.Title }} - {{ .Title }}</title>
 	<link rel="icon" href="{{ $.Site.BaseURL }}{{ $.Site.Params.favicon }}" />
 	<meta name="description" content="{{ $.Site.Params.description }}" />
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 	{{ if .IsTranslated }}
 	{{ range .AllTranslations }}
